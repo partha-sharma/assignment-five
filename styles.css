@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+.header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding-bottom: 0.5rem;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 0.5rem 2rem;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-top: 1.2rem;
+}
+
+.fav-btn {
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.4em 0.7em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+.fav-btn:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.brand img {
+    height: 32px;
+}
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.score {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 600;
+    background: #f7f7f7;
+    border-radius: 20px;
+    padding: 0.2rem 0.8rem;
+}
+.score img {
+    height: 20px;
+}
+.copy-all-btn {
+    background: #2ecc40;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.4rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.copy-all-btn:hover {
+    background: #27ae60;
+}
+.header-banner {
+    background: linear-gradient(90deg, #01402C 60%, #006747 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0 1.2rem 0;
+    position: relative;
+    margin: 0 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.banner-badge {
+    height: 48px;
+    margin-bottom: 0.5rem;
+}
+.header-banner h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.header-banner p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
